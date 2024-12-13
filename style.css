@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    width: 10vw;
+    border-radius: 5px;
+    flex: 0.5;
+    height: 20vh;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: #CDCDCD 2px 2px;
+    position: relative;
+    transition: flex 1s ease-in;
+}
+
+.panel.active {
+    flex: 5;
+    background-color: red !important;
+}
+
+#panel-1 {
+    background-color: aquamarine;
+}
+
+#panel-2 {
+    background-color: blue;
+}
+
+#panel-3 {
+    background-color: yellow;
+}
+
+#panel-4 {
+    background-color: purple;
+}
+
+#panel-5 {
+    background-color: green;
+}
+
+.panel.active h3 {
+    text-align: center;
+    color: white;
+}
